@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python 100 Days of Notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Python Notes</h1>
+        <input type="text" id="search" placeholder="Search notes...">
+    </header>
+    <div class="container">
+        <nav>
+            <ul id="dayList">
+                <li><a href="#topic1">Topic 1</a></li>
+                <li><a href="#topic2">Topic 2</a></li>
+                <li><a href="#topic3">Topic 3</a></li>
+                <!-- Add more days here -->
+                <li><a href="#topic100">Topic 100</a></li>
+            </ul>
+        </nav>
+        <main id="content">
+            <section id="topic1" class="note">
+                <h2>Topic 1: Printing to the console in Pyhton</h2>
+                <p>we're ready to start learning how to program.
+
+                    Now, remember that the whole reason why we're learning to program is to be able to tell the computer
+
+                    what it needs to do, and for it to follow our commands.
+
+                    So let's go ahead and tell the computer to do something.
+
+                    And we're going to do that by writing our first line of code.
+
+                    So in this case I'm creating something called a print function, which is just the word print all in
+
+                    lowercase and then followed by a set of parentheses.
+
+                    Now inside these parentheses I'm going to tell it what I want it to print.
+
+                    And hopefully it's going to output that inside our console.
+
+                    So I'm going to start off by writing the classic Hello World inside here.
+
+                    And then once you're ready then go ahead and click run.
+
+                    After a few seconds you should see the computer follow your command, namely printing the words that
+
+                    you told it to print inside the console or the output area over here.
+
+                    And once it's done, it indicates that by writing process finished with exit code zero, which means
+
+                    everything was successful, everything was run without any issues.
+
+                    Now, just to break down this area a little bit more for you, if you look at the top line here, which
+
+                    you'll always, always see, there's a lot of text in here, but it's actually very simple to
+                    understand.
+
+                    Essentially it's telling you the location of the current file that is being run that has resulted in
+
+                    this output.
+
+                    So in our case, it's the day one task.
+
+                    And you'll see this change as you go through the different days.
+
+                    Because the location of this file where you wrote the code will change.
+
+                    So the first line is the location of the file that you executed.
+
+                    The second line, or multiple lines in between, is the result of your command to the computer.
+
+                    And then finally at the very, very end, it tells you if the process finished with success, which
+
+                    is in this case, or if there are any other issues, it would show up here as well, which we're going
+
+                    to see very, very shortly.
+
+                    And to be sure that you're always running the current file, make sure that this drop down is
+                    selected
+
+                    as current file.
+
+                    And that way, every time you press the play button here, it will run the code into the output area.
+
+                    Now if you want to do a shortcut and you're really into keyboard shortcuts, you can hover over the
+
+                    play button and you'll see the shortcut on what I'm using, which is a mac is Control Plus R in
+                    Windows
+
+                    or Linux.
+
+                    It'll show up different shortcuts, but it should all show up there if you want to try that out.
+
+                    Alternatively, just keep pressing the play button and it works just as well.
+
+                    And the way that this command works is super simple.
+
+                    You have the keyword print followed by a set of parentheses, and then inside the parentheses, you
+
+                    tell it what you want it to print.
+
+                    And once you've inserted that, then when this line of code gets executed by the computer, it'll know
+
+                    to simply print or output the thing that you've placed in between the parentheses.
+
+                    But notice here that it's not just the word hello world exclamation mark that I've put inside my
+                    parentheses.
+
+                    I've also added some quotation marks or double quotes around the word.
+
+                    And the reason why I've done this is so that I can tell the computer that this bit here, in between
+
+                    the double quotes, is not code.
+
+                    It's not like print where it's supposed to do something.
+
+                    This is just some text that I've made up that I want it to print out.
+
+                    And these pieces of text in programming lingo, is known as strings.
+
+                    And you can imagine it as almost like a pearl necklace.
+
+                    Right?
+
+                    It's a string of characters.
+
+                    And what the double quotes do is they basically show the beginning and the end of that string of
+                    characters.
+
+                    So that means you have to be really careful when you're typing.
+
+                    For example, if I go ahead and I miss out the closing double quote, well, now you can see that
+                    there's
+
+                    some changes that have happened to our code already, namely that the last parentheses, instead of
+
+                    being colored and white like the opening parentheses or how it used to be, it's now colored in
+                    green,
+
+                    the same color as the rest of our text or our string.
+
+                    And this is a subtle hint to us.
+
+                    You're going to get really attuned to these subtle hints, because they are the clues that will tell
+
+                    you what might have gone wrong in your code.
+
+                    If I run this code as it is right now, it's going to break.
+
+                    It's going to give me a syntax error, and it says something that seems like it's completely not
+                    English.
+
+                    So how can we figure out what this means?
+
+                    Now, the thing I want you to know is that all programmers make mistakes.
+
+                    We all make lots of errors, like forgetting to add the double quotes at the end of the string, or
+
+                    forgetting to add a closing parentheses.
+
+                    These things are just common errors because we're human.
+
+                    But the thing that differentiates great programmers is we're really good at figuring out what the
+                    problem
+
+                    is and how to fix it.
+
+                    So you can imagine that coding is just a whole bunch of problems that you have to solve.
+
+                    And in this case, when we get some sort of red text and our code is not doing what we expected to
+                    do,
+
+                    then all we have to do is take this entire error message where it says something, something error,
+
+                    and this is some sort of message that we're supposed to understand, and we're simply going to drop
+
+                    it into Google.
+
+                    And usually the first link you come across will be from a website called Stackoverflow.com.
+
+                    And this is basically the Q&A website that all developers will go to whenever something is wrong
+                    with
+
+                    their code, or when they can't figure out how to do something.
+
+                    So if we click on this link, you can see that somebody else has also had this error.
+
+                    And some kind souls have told us that the solution might be the fact that you're missing a double
+                    quote
+
+                    before the end of the line.
+
+                    So if we take a look back at our code, the code that generated this error looks like this.
+
+                    And indeed, we are missing a double quote at the end of our string.
+
+                    As you're learning to code, as you're going through your 100 days, I want you to become more and
+                    more
+
+                    attuned to the color of your code, because one of the most helpful things that code editors such as
+
+                    this do for us is something called syntax highlighting.
+
+                    For example, when I was missing that double quote, it highlighted this entire thing and that is
+                    basically
+
+                    it telling us, it seems like this whole thing is some text.
+
+                    It thinks that all of this is a string and that we're missing a closing parenthesis.
+
+                    So if you notice this and you're like, wait, actually that's not right.
+
+                    This part should match the color of the open brace, which is white.
+
+                    So there must be something wrong here.
+
+                    And indeed, if you have a look at the error message, it actually has a little carrot sign right here
+
+                    showing you that there's something that's probably not right here.
+
+                    And it might jog your memory that, oh yeah, I've forgotten a closing double quote.
+
+                    Now, the really handy thing about PyCharm is it actually underlines your errors before you even run
+
+                    your code.
+
+                    And if you hover over the underline, it usually gives you some intelligent guess as to what your
+                    problem
+
+                    might be.
+
+                    And in this case, it's absolutely spot on.
+
+                    It says you're missing a closing quote, which is exactly what we're missing.
+
+                    So that will also be really helpful for us to figure out what it is that we need to do.
+
+                    But as with all things with AI, if we don't know what we're doing in the first place, these hints
+
+                    don't help us that much.
+
+                    For example, if I put the closing quote right here, I've got other problems and I'm going to create
+
+                    more problems for myself.
+
+                    So it's important that we first understand how things work and then use technology and AI to help
+                    us,
+
+                    such as in this case, to fix our bug.
+
+                    Now, you'll notice that there is also a tiny squiggly line under this closing brace, but in this
+                    case,
+
+                    it's not in red, so it's not an error, but instead it's in yellow, which is a warning.
+
+                    Now, most of these warnings come from a good standard practice for how to write code.
+
+                    And if we hover over this warning, it tells us that Pep eight, which is guidance for how to write
+
+                    Python code, and it tells you that the problem that it's seeing is there's no new line at the end of
+
+                    the file.
+
+                    Now, we can ignore all of this because it's a bit too complicated, and it's actually very simple to
+
+                    solve this problem.
+
+                    All it's saying is that in good practice when we're writing Python code, there should be a new line
+
+                    at the end of the file so that we have our cursor down here instead of ending right there.
+
+                    And that's all there is to it.
+
+                    And with that one thing, we've gotten rid of all our errors.
+
+                    We've gotten rid of all our warnings.
+
+                    Our code looks good stylistically as well as syntactically.
+
+                    All these big words that all it means is that it looks great in every single way.
+
+                    And we've got our little check mark, which means no problems found by the editor.
+
+                    Now, sometimes the editor can be really picky, and some of the things that it tells you you can
+                    safely
+
+                    ignore.
+
+                    But as always, we need to understand how everything works before we can do that.
+
+                    So now that we've embarked on our first step to write some code and start commanding the computer to
+
+                    do what we wanted to do, which is to print out some words into the output area.
+
+                    It's now time for a challenge.
+
+                    So head over to the next lesson, and we're going to test you on what you've learned in this lesson
+
+                    by practicing writing some print statements.
+
+                    So for all of that and more, I'll see you on the next lesson.</p>
+            </section>
+            <section id="topic2" class="note">
+                <h2>Topic 2: String Manipulation</h2>
+                <p>All right, guys, let's get back to learning about a few more things that we can do with strings.
+
+                    You saw in the last lesson that if we wanted to print things on individual lines, then we actually
+
+                    had to write them a few times, right?
+
+                    We had to write print, um, on three lines if we wanted it to be printed one, two, three.
+
+                    Like so.
+
+                    Now in this lesson, I want to show you a method where we can do the same thing, but by using a
+                    single
+
+                    print method, so saving ourselves a few characters.
+
+                    So the way that we would create a new line is by writing a backslash and the n character.
+
+                    And now if I go ahead and write Hello World again afterwards, and I hit run, and you can see that
+
+                    once that line of code has been executed, I've got Hello World printed on two separate lines
+                    separated
+
+                    by this backslash n character, which gets replaced by a new line.
+
+                    So go ahead and give that a go and see if you can create another one.
+
+                    Remember though, it's a backslash and not a forward slash.
+
+                    But the syntax highlighting should help you.
+
+                    All right.
+
+                    We can simply just add another backslash n and remember that unless you want a space to appear right
+
+                    before where your hello world appears, you actually don't want any gaps between each of these lines.
+
+                    There we go.
+
+                    We've got the same result as before, but now using only a single print statement and creating some
+
+                    new lines with the backslash n.
+
+                    Now, one of the other things that we can do with strings is we can concatenate them.
+
+                    What this means is we combine different strings so that there will be added to the end of another
+                    string.
+
+                    Here's an example.
+
+                    Let's say that we had the word hello, and I wanted to add my name to the end of this word to make it
+
+                    a single string.
+
+                    Well, I can combine two strings by simply using a plus sign so I can write hello plus Angela.
+
+                    Now here's a question.
+
+                    When this runs, what do you think it will look like?
+
+                    Do you think it'll write hello space Angela or hello Angela?
+
+                    All in one word.
+
+                    Let's see what happens.
+
+                    You can see that these two strings have now been combined into one, and there's no space in between
+
+                    because we don't have a space character anywhere in here.
+
+                    Pause the video and see if you can add a space in between.
+
+                    All right.
+
+                    So there's two ways that you can do this.
+
+                    Well maybe three actually you could add a space to the end of hello.
+
+                    You could add a space to the beginning of Angela, or you can actually continue using string
+                    concatenation
+
+                    by simply adding another string in between these two.
+
+                    And this one is just a space.
+
+                    So now when I run my code you can see the space gets inserted and this long thing gets combined into
+
+                    a single string that looks like this.
+
+                    Once this bit of the code gets executed, if we think of strings as a string of connected characters,
+
+                    then string concatenation is simply taking those separate strings of characters and merging them
+                    into
+
+                    one.
+
+                    Now, this is a good point to mention that in Python, programming spaces are really, really
+                    important.
+
+                    And what I mean by this is not so much the spaces that are inside strings like this one, but the
+                    spaces
+
+                    that you add in your code.
+
+                    So here you can see that the print statement starts at the very beginning of this line two.
+
+                    But what happens if I add a space before the print statement?
+
+                    Now you can see I've got the editor screaming at me already.
+
+                    I've got errors, I've got squiggly lines, and if I run this code as it is, I'll get something that's
+
+                    called an indentation error.
+
+                    Now this is different to the previous error we had which was a syntax error.
+
+                    Now what this error tells you is that there is an unexpected indent around this part of your code.
+
+                    That's what the error message is telling me.
+
+                    So we can then go and investigate and see our squiggly lines and we can hopefully realize that,
+                    oops,
+
+                    we've added an extra space which we can easily get rid of, and it will calm everything down and get
+
+                    rid of that error.
+
+                    So remember, previously we were missing a closing quotation mark and we got a syntax error.
+
+                    And in this case we have a indentation error by either adding in an aberrant space or accidentally
+                    inserting
+
+                    even a whole tab which is created using the tab key.
+
+                    And all of these things will give you indentation errors.
+
+                    So it's really important that you be careful when you're adding spaces in your Python code.
+
+                    It doesn't matter so much when we have spaces in between the quotation marks, because that's a part
+
+                    of the string, but anywhere that is a part of the code.
+
+                    So in this case, anything that's not green and you go ahead and add some spaces, you might end up
+
+                    with an indentation error.
+
+                    Now you might also when you add spaces in your code, not have an indentation error because the code
+
+                    can function.
+
+                    For example, if I add a space between print and the parentheses.
+
+                    But in this case nothing really changes in terms of our output.
+
+                    But we do get a warning because this is not really ideally how we should format our code.
+
+                    So our warning tells us that according to pep8 and best practices, there shouldn't be whitespace
+                    before
+
+                    an open parenthesis.
+
+                    So we can also use that hint to get rid of any of these issues.
+
+                    So the message here is be careful when you're adding spaces.
+
+                    Make sure you know what it's doing.
+
+                    And when you see the error indentation error.
+
+                    Remember what you learned in this lesson to be able to fix it Now, as helpful as these warnings and
+
+                    errors are, you'll notice that I'm putting a lot of emphasis on looking at the errors that come out
+
+                    after we hit run.
+
+                    And that's because this comes from the Python compiler itself.
+
+                    This will be the same whenever you write Python code.
+
+                    However, these squiggly lines and these errors that you get when you hover over them are specific to
+
+                    the editor that we're using here, which is PyCharm.
+
+                    Now, if you happen to be using a different type of editor, they might not give you the same kind of
+
+                    warnings, and they might not give you the same kind of errors.
+
+                    And the messages will also be wildly different.
+
+                    So it's always really important to learn the errors that you get back after you run your code.
+
+                    And to remember these words syntax error or indentation error.
+
+                    And this is something that will help you no matter what tools you use, making you a more flexible
+                    developer.
+
+                    And we're going to see this in practice right now because I've got a debugging exercise coming up
+                    for
+
+                    you right after this lesson, and we're going to be doing it inside a different editor without the
+                    assistance
+
+                    of all of these helpful squiggly lines.
+
+                    So can you rely on your skills, your ability to debug when you run your code and see error messages
+
+                    and go through each of the lines of the debugging exercise one by one, and fix each problem from top
+
+                    to bottom.
+
+                    This word debugging actually comes from a story where back in the 80s, a moth actually flew into one
+
+                    of the early computers and it got electrocuted.
+
+                    Unfortunately for the moth and for the programmer, it meant that his code wasn't performing as he
+                    would
+
+                    expect it to, so he actually had to go into the computer, pick out the moth and fix the wires so
+                    that
+
+                    it would work again.
+
+                    Now, we don't have any moths flying around in our code, thankfully, but what we do have to do is
+
+                    we have to pick out the errors so that our code will run in the way that we expect it to without any
+
+                    errors.
+
+                    So head over to the next lesson and try out your first debugging exercise.</p>
+            </section>
+            <section id="topic3" class="note">
+                <h2>Topic 3: Python Input Function</h2>
+                <p>And today I want to talk about a different function.
+
+                    So we've seen the print function and all the things that we can do to strings and use the print
+                    function
+
+                    and debug it.
+
+                    But what if we wanted to be able to enter some data.
+
+                    So if we wanted to say, ask the user what is your name?
+
+                    And we run this code, you can see that being printed, but there's no way for the user on this side
+
+                    to be able to give our code some data to work with.
+
+                    In order to do that, instead of using the print function, we're going to use a different function,
+
+                    and it's called the input function.
+
+                    And notice how as I'm typing code intelligence is already giving me some suggestions because it
+                    thinks
+
+                    it knows what I might want and it's right.
+
+                    So this is what the input function looks like.
+
+                    This is the name of the function.
+
+                    And again it's followed by some parentheses.
+
+                    Inside the parentheses is the prompt that I'm going to give the user.
+
+                    So when I run this code, it will say, what is your name?
+
+                    Now this time you'll notice a couple of differences.
+
+                    Firstly, it doesn't have that final line process finished with exit code zero.
+
+                    It's actually not saying anything at all.
+
+                    Plus, when you look up here, you'll see that in addition to the play button, there's the stop button
+
+                    being highlighted and the play button.
+
+                    It has changed this rerun symbol.
+
+                    So what is all of this mean?
+
+                    Well, it means that we're actually in the middle of the process of running our code.
+
+                    It hasn't exited yet.
+
+                    And what exactly is it waiting for?
+
+                    Well, it's waiting for us to click into this output pane and actually type in an input.
+
+                    So the prompt is the text that goes into the input command.
+
+                    And then afterwards we can add some actual input whatever it is we want into the output area.
+
+                    And now once I hit enter you'll see that finally we have the process finished with exit code.
+
+                    You'll see the stop button is gone.
+
+                    And we can now rerun the code as usual.
+
+                    But where did this text go and how can we capture it?
+
+                    The input function looks pretty much identical to the print function, but instead of the word print,
+
+                    it's just got the word input and inside the parentheses.
+
+                    Instead of adding what text will be printed, we're adding the prompt for the user to give them a
+                    hint
+
+                    as to what kind of data we want.
+
+                    And then when you run this code, it will print out the prompt, but then there will be a cursor.
+
+                    In some places you'll see it like a flashing cursor, other places it'll just be a solid cursor.
+
+                    And in some places you won't even see a cursor until you click into the output area ready for the
+                    user
+
+                    to type in some piece of data.
+
+                    So what can we do with this data?
+
+                    Well, we can use it inside our code.
+
+                    Now the way that this works is when this line is run by the computer, it takes your command as
+                    understanding
+
+                    that you want the user.
+
+                    So somebody to be able to you want the user to be able to type in an input into this area and
+                    whatever
+
+                    it is they type, you're going to take it back into the code and replace this command with it.
+
+                    So this is a little bit abstract when we see it like this.
+
+                    But let's imagine we wanted to write a print statement and we wanted to say hello.
+
+                    And we wanted to greet the user.
+
+                    Now I know that in my case my name is Angela.
+
+                    So I would get it to say hello Angela.
+
+                    But what if you didn't know the name of your user?
+
+                    Well, you wouldn't just want to say hello user or hello something generic.
+
+                    You would want them to be able to type in their name.
+
+                    So this is where a little bit of string concatenation comes in, which we learned before.
+
+                    If we take this input function that we've explored just now and we paste it into this print
+                    statement.
+
+                    So this can be a little bit confusing.
+
+                    So just concentrate right here.
+
+                    There's two parentheses at the end.
+
+                    And the reason for this is because this first one closes off the print statement.
+
+                    So we're saying everything between here and here we want it to be printed.
+
+                    Now what is in between there.
+
+                    Well firstly it's the string that says hello and then a space.
+
+                    and then what we had as the input.
+
+                    So whatever the user types into here will replace this highlighted part and we'll end up with hello
+
+                    concatenate.
+
+                    So add to another string.
+
+                    So let's try this out.
+
+                    Let's go ahead and hit run.
+
+                    And you can see the prompt show up in the output area.
+
+                    So now if I click into this area, my cursor starts flashing and I can type whatever it is I want.
+
+                    Now when I hit enter, what I type is going to go and replace this input function.
+
+                    And then once it's in there, the print function is going to carry out its role and it's going to add
+
+                    the word hello in front of it and then print it out right here so we can see now.
+
+                    Hello Angela.
+
+                    But this is of course making our code a lot more adaptable.
+
+                    So if tomorrow I decided to change my name to, uh, cherry.
+
+                    There's a really embarrassing story about this.
+
+                    So when I first moved to the UK, I wanted to pick my own name because I was nine years old and I
+                    wanted
+
+                    a very, uh, fruit related name.
+
+                    Um, and this was the name that I wanted.
+
+                    And my parents, as as wise as they are, said, no, we will take your name.
+
+                    So that's how I ended up with the name Angela.
+
+                    So now you can see this gets added in to the hello.
+
+                    And we can have a completely adaptable bit of code.
+
+                    So now it's time for a small challenge.
+
+                    Can you use what you've learned from previous lessons, and also this lesson to figure out how to add
+
+                    a exclamation mark to the end of the sentence that's being printed.
+
+                    So instead of just hello Angela, we want the output to say hello.
+
+                    And then we take in whatever it is user inputs into here, and then we replace that with the user
+                    input.
+
+                    And finally we add an exclamation mark.
+
+                    Now of course we have to do this using strings and using what we've learned about Python code.
+
+                    So pause the video, read the description of the problem and see if you can solve it.
+
+                    Okay, so if you remember from string concatenation what we need to do is we need to treat this input
+
+                    function as its own string, because eventually it's going to be replaced by a string.
+
+                    So we can take that part, set it aside.
+
+                    And then we can use the plus sign to concatenate the final character, which is a exclamation mark to
+
+                    this entire long string.
+
+                    So now if I go ahead and run this code and I type in an input, that input gets inserted and replaces
+
+                    this entire input function.
+
+                    And then finally I get the exclamation mark added to the end.
+
+                    If you find this line of code difficult to understand and to wrap your head around, then I recommend
+
+                    heading over to a website called thonny.
+
+                    Org and downloading an application called Thonny.
+
+                    It's completely free and it's available for windows, Mac and Linux.
+
+                    And once you've installed this application, you can go ahead and paste your line of code here and
+                    click
+
+                    on this little debug symbol.
+
+                    And then we can click on this button, which is called the step into button.
+
+                    To step into the execution of this line of code to see how the computer is evaluating this code
+                    here,
+
+                    step by step.
+
+                    So you'll see the first thing it tries to do is it will try to run this print statement.
+
+                    It looks inside these parentheses to see what it needs to print.
+
+                    So the first thing is this hello.
+
+                    And it turns that into a string.
+
+                    And then it looks at the next thing after the plus sign to see what it should turn this into.
+
+                    And this of course is the input function.
+
+                    So as I continue stepping into it, it's actually going to execute it.
+
+                    So it's going to run this input function and show the prompt.
+
+                    What is your name.
+
+                    So that's what shows up down here.
+
+                    And now if I enter a value in here and hit enter, then that value that I put right there replaces
+                    that
+
+                    previous input function and is now held inside the print statement.
+
+                    So if I continue stepping through this code, then you'll see it concatenates all of the pieces
+                    together.
+
+                    And finally it just ends up with a simple print.
+
+                    Hello, Angela, exclamation mark.
+
+                    And if I continue stepping into it, you'll see that line of code executed until there are no more
+                    instructions
+
+                    left.
+
+                    So if you prefer seeing your code, um, run like this step by step so that you can see what's going
+
+                    on, then I recommend giving this a go.
+
+                    As you're learning to code, there's going to be new concepts covered.
+
+                    There's going to be things that take a little bit of thinking before you can understand it.
+
+                    So what a lot of programmers love to do is they like to comment in their code.
+
+                    Now, you might have seen this already throughout the coding exercises and the solutions I provided,
+
+                    but in Python, if you wanted a line of text to not be considered by the computer at all, all you
+                    have
+
+                    to do is add the hashtag or pound sign in front of your text, and this turns it into a comment.
+
+                    So something that the computer will completely ignore.
+
+                    So in here you can write code as much as you like.
+
+                    Um, but it won't be executed.
+
+                    And when you click run, you'll see that this is completely ignored.
+
+                    So what I recommend is whenever you come across a new concept in the course, to make a comment above
+
+                    it so that you can explain to yourself what's actually going on in the line of code below.
+
+                    This way, the next time you come across this line of code and you're not quite sure what's actually
+
+                    happening here, you can have a look at the notes that you've written for yourself in your own words,
+
+                    and hopefully it'll jog your memory and make it much easier to comprehend what's going on.
+
+                    In addition to adding a pound sign manually, you can also highlight a line of code or simply have
+                    your
+
+                    cursor on a line of code and hold down command and forward slash if you're on Mac or control and
+                    forward
+
+                    slash if you're on windows.
+
+                    And what this does is it takes this line of code out of the computer's awareness, and it's no longer
+
+                    executed when you run this code file.
+
+                    So the process is finished without anything being carried out at all, because all the computer is
+                    seeing
+
+                    is a blank page because we've taken all the code out into comments.
+
+                    So in order to take this back into code, all you have to do is use the same command that you tried
+
+                    just now.
+
+                    So command forward slash on Mac or control forward slash on windows.
+
+                    And this will now again be considered as code by the computer.
+
+                    All right.
+
+                    So in this lesson we learned about the input function.
+
+                    We learned about putting functions inside other functions and being able to get user input from the
+
+                    console by using the input function.</p>
+            </section>
+            <!-- Add more sections here -->
+            <section id="topic100" class="note">
+                <h2>Day 100: Final Project</h2>
+                <p>Apply everything you've learned in a final Python project.</p>
+            </section>
+        </main>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
